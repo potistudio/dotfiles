@@ -1,0 +1,43 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "alt+j",
+		"command": "workbench.action.togglePanel"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "-workbench.action.togglePanel"
+	},
+	{
+		"key": "alt+up",
+		"command": "gotoNextPreviousMember.previousMember"
+	},
+	{
+		"key": "ctrl+up",
+		"command": "-gotoNextPreviousMember.previousMember"
+	},
+	{
+		"key": "ctrl+d r",
+		"command": "vscord.reconnect",
+		"when": "!editorTextFocus"
+	},
+	{
+		"key": "ctrl+d d",
+		"command": "vscord.disconnect",
+		"when": "!editorTextFocus"
+	},
+	{
+		"key": "ctrl+f w",
+		"command": "workbench.action.experimental.quickTextSearch"
+	},
+	{
+		"key": "ctrl+f f",
+		"command": "actions.find",
+		"when": "editorFocus || editorIsOpen"
+	},
+	{
+		"key": "ctrl+f",
+		"command": "-actions.find",
+		"when": "editorFocus || editorIsOpen"
+	}
+]

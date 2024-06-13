@@ -1,0 +1,172 @@
+{
+    "omnisharp.useModernNet": false,
+    "editor.codeLens": false,
+    "editor.fontFamily": "\"UDEV Gothic 35LG\"",
+    "editor.insertSpaces": false,
+    "editor.fontWeight": "normal",
+    "editor.minimap.renderCharacters": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": false,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.size": "fit",
+    "editor.renderFinalNewline": "dimmed",
+    "editor.renderLineHighlight": "all",
+    "editor.fontLigatures": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.minimap.maxColumn": 80,
+    "todohighlight.maxFilesForSearch": 4096,
+    "workbench.productIconTheme": "fluent-icons",
+    "files.eol": "\n",
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#606060",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "=",
+            "color": "#91C8E4",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "files.associations": {
+        "*.obj": "lua",
+        "*.shader": "hlsl",
+        "*.anm": "lua"
+    },
+    "editor.formatOnPaste": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "cSpell.userWords": [
+        "Dont",
+        "POTI"
+    ],
+    "security.workspace.trust.enabled": false,
+    "codeium.enableConfig": {
+        "*": true
+    },
+    "omnisharp.enableRoslynAnalyzers": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.wordBasedSuggestionsMode": "allDocuments",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "[editorconfig]": {
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "on",
+            "strings": "on"
+          }
+    },
+    "[plaintext]": {
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "on",
+            "strings": "on"
+          }
+    },
+    "gitlens.graph.scrollMarkers.additionalTypes": [
+        "stashes",
+        "localBranches",
+        "remoteBranches"
+    ],
+    "git.autofetch": true,
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 4,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "svelte.enable-ts-plugin": true,
+    "files.autoSaveDelay": 800,
+    "workbench.startupEditor": "none",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+    "window.commandCenter": false,
+    "workbench.activityBar.location": "top",
+    "cmake.configureOnOpen": true,
+    "cmake.options.statusBarVisibility": "compact",
+    "cmake.showOptionsMovedNotification": false,
+    "change-case.c": [
+        "snake_case",
+        "camelCase",
+        "PascalCase",
+        "CONST_CASE"
+    ],
+    "terminal.integrated.gpuAcceleration": "canvas",
+    "dart.flutterSdkPath": "C:\\bin\\flutter\\flutter",
+    "editor.largeFileOptimizations": false,
+    "workbench.editorAssociations": {
+        "*.db": "hexEditor.hexedit"
+    },
+    "window.restoreWindows": "none",
+    "editor.lineHeight": 1.4,
+    "workbench.colorTheme": "Moonlight II Italic",
+    "vscord.app.name": "Custom",
+    "vscord.app.id": "1181481592582062140",
+    "vscord.status.image.large.notInFile.text": "E M P T Y",
+    "vscord.status.buttons.button1.active.enabled": true,
+    "vscord.status.buttons.button1.active.label": "Rick Astley - Never Gonna Give You Up",
+    "vscord.status.buttons.button2.enabled": true,
+    "vscord.status.buttons.button2.active.enabled": true,
+    "vscord.status.state.text.editing": "Working on {file_name}{file_extension}:{current_line}:{current_column}({file_size})",
+    "vscord.status.state.text.noWorkspaceFound": "NO Workspace",
+    "vscord.status.state.text.viewing": "Viewing {file_name}{file_extension}({file_size})",
+    "vscord.status.details.text.noWorkSpaceText": "NO Workspace",
+    "vscord.status.details.text.editing": "In {git_repo} - {git_branch}",
+    "vscord.status.image.large.editing.text": "Editing a {lang} file",
+    "vscord.status.image.large.debugging.text": "Debugging a {lang} file",
+    "vscord.status.image.small.editing.key": "https://media.printables.com/media/prints/415756/images/3449561_0766b7c8-1a3a-46e6-a783-5708bb623946/thumbs/inside/1280x960/png/qian-nian-xue-yuan.webp",
+    "vscord.status.image.small.editing.text": "Millenium Science School",
+    "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "none",
+    "vscode_custom_css.imports": [
+        "https://gist.githubusercontent.com/potistudio/b008ea25258927cfd36ad367a807648a/raw/467496432bdc4adde2a7b8438d1dda88dd064e23/custom.css"
+    ],
+    "gitlens.hovers.currentLine.over": "line",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
